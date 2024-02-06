@@ -9,7 +9,7 @@ export default function Input({ label, invalid, ...props }) {
     labelClasses += " text-stone-300";
     inputClasses += " text-gray-700 bg-stone-300";
   }
-
+  
   return (
     <p>
       <label className={labelClasses}>{label}</label>
